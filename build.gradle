@@ -11,6 +11,9 @@ repositories {
 
 dependencies {
     compile 'commons-validator:commons-validator:1.4.1'
+    // https://mvnrepository.com/artifact/com.googlecode.efficient-java-matrix-library/ejml
+    compile 'com.googlecode.efficient-java-matrix-library:ejml:0.25'
+    compile 'com.github.dpaukov:combinatoricslib3:3.3.0'
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 }
